@@ -1,7 +1,10 @@
-$primary: hsl(0, 38%, 72%);
+@use 'base';
+@use 'custom';
+
 
 .test-1{
     color: $primary;
     height: 500px;
     width: 500px;
 }
+   
